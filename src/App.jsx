@@ -167,7 +167,7 @@ export default function App() {
         <div className="grid md:grid-cols-2 gap-8">
         </div>
            <h3 className="text-pink-400 font-bold text-lg">
-              Dual-Module Login Security System (Flask)
+              Dual-Module Login Security System
             </h3>
 
             <p className="text-gray-400 mt-3 text-sm">
