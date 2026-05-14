@@ -5,19 +5,16 @@ export default function App() {
       {/* Background glow */}
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,rgba(0,255,255,0.15),transparent_50%)] pointer-events-none"></div>
 
-     <nav className="px-4 sm:px-10 py-4 border-b border-cyan-900/30 backdrop-blur relative z-10">
+      <nav className="px-4 sm:px-10 py-4 border-b border-cyan-900/30 backdrop-blur relative z-10">
 
-  {/* Top row: Logo */}
+        {/* Bottom row: Links */}
+        <div className="mt-3 flex flex-wrap justify-center sm:justify-end gap-4 sm:gap-8 text-xs sm:text-sm text-gray-300">
+          <a className="hover:text-cyan-400 transition" href="#projects">Projects</a>
+          <a className="hover:text-cyan-400 transition" href="#skills">Skills</a>
+          <a className="hover:text-cyan-400 transition" href="#contact">Contact</a>
+        </div>
 
-
-  {/* Bottom row: Links */}
-  <div className="mt-3 flex flex-wrap justify-center sm:justify-end gap-4 sm:gap-8 text-xs sm:text-sm text-gray-300">
-    <a className="hover:text-cyan-400 transition" href="#projects">Projects</a>
-    <a className="hover:text-cyan-400 transition" href="#skills">Skills</a>
-    <a className="hover:text-cyan-400 transition" href="#contact">Contact</a>
-  </div>
-
-</nav>
+      </nav>
 
       {/* HERO */}
       <section className="relative flex flex-col items-center justify-center text-center min-h-[100vh] px-4 sm:px-6 py-10">
@@ -29,9 +26,9 @@ export default function App() {
           className="w-28 h-28 sm:w-36 sm:h-36 rounded-full object-cover border-2 border-cyan-400 shadow-lg mb-6"
         />
 
-   <p className="text-cyan-400 tracking-[0.2em] text-xs sm:text-sm mt-6 sm:mt-10">
-  Portfolio
-</p>
+        <p className="text-cyan-400 tracking-[0.2em] text-xs sm:text-sm">
+          Portfolio
+        </p>
 
         <h1 className="text-3xl sm:text-5xl md:text-6xl font-bold mt-4 leading-tight">
           Fatima Zoghbor
