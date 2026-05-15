@@ -81,7 +81,7 @@ export default function App() {
             </h3>
 
             <p className="text-gray-400 mt-3 text-sm">
-              Designed and developed a real-time law enforcement and incident response platform.
+              Designed and developed a real-time law enforcement and incident response hypothetical platform.
             </p>
 
             <ul className="text-gray-500 text-xs mt-4 space-y-1">
@@ -112,6 +112,12 @@ export default function App() {
     View Prototype
   </a>
 
+<div className="flex justify-end mt-3">
+  <div className="text-gray-400 text-sm min-w-md text-left"> 
+    <p> This prototype demonstrates how the "CrimeTrack" application would be designed and created. This course was showing us the Human Computer Interaction and how to design a good User Interface.
+      </p> 
+  </div>
+</div>
 </div>
           </div>
 
@@ -135,6 +141,7 @@ export default function App() {
             </ul>
 <div className="flex gap-3 mt-5 flex-wrap">
 
+
   <a
     href="https://drive.google.com/file/d/1bpXCHMbVvzzSmw3ZGCoIhXRI6VWE8m5Y/view?usp=sharing"
     target="_blank"
@@ -152,7 +159,12 @@ export default function App() {
   >
     View Presentation
   </a>
-
+<div className="flex justify-end mt-3">
+  <div className="text-gray-400 text-sm min-w-md text-left"> 
+    <p> This project was a collaboration with PwC, however, I do not have the access to the actual AI platform so this demo shows the features implemented.
+      </p> 
+  </div>
+</div>
 </div>
           </div>
 
@@ -203,7 +215,7 @@ export default function App() {
 
 <div className="flex justify-end mt-3">
   <div className="text-gray-400 text-sm min-w-md text-left"> 
-    <p> ⚠ This project demonstrates how insecure authentication systems can be exploited through SQL injection, weak hashing, and missing rate limiting — and how secure design mitigates these risks. 
+    <p> This project demonstrates how insecure authentication systems can be exploited through SQL injection, weak hashing, and missing rate limiting — and how secure design mitigates these risks. 
       </p> 
   </div>
 </div>
