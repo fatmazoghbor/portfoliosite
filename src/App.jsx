@@ -38,7 +38,7 @@ export default function App() {
           Fatima Zoghbor
         </h1>
 
-        <p className="text-gray-400 mt-4 max-w-xl text-sm sm:text-base">
+        <p className="text-gray-400 mt-4  text-sm sm:text-base">
           Hello There! Welcome to my portfolio.
           <ul> Feel free to check out my resume, projects, and skills below. </ul>
         </p>
@@ -114,7 +114,7 @@ export default function App() {
   </a>
 
 <div className="flex justify-end mt-3">
-  <div className="text-gray-400 text-sm min-w-md text-left"> 
+  <div className="text-gray-400 text-sm text-left"> 
     <p> This prototype demonstrates how the "CrimeTrack" application would be designed and created. This course was showing us the Human Computer Interaction and how to design a good User Interface.
       </p> 
   </div>
@@ -161,7 +161,7 @@ export default function App() {
     View Presentation
   </a>
 <div className="flex justify-end mt-3">
-  <div className="text-gray-400 text-sm min-w-md text-left"> 
+  <div className="text-gray-400 text-sm text-left"> 
     <p> This project was a collaboration with PwC, however, I do not have the access to the actual AI platform so this demo shows the features implemented.
       </p> 
   </div>
@@ -215,7 +215,7 @@ export default function App() {
 </div>
 
 <div className="flex justify-end mt-3">
-  <div className="text-gray-400 text-sm min-w-md text-left"> 
+  <div className="text-gray-400 text-sm text-left"> 
     <p> This project demonstrates how insecure authentication systems can be exploited through SQL injection, weak hashing, and missing rate limiting — and how secure design mitigates these risks. 
       </p> 
   </div>
