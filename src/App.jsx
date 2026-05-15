@@ -39,9 +39,10 @@ export default function App() {
         </h1>
 
         <p className="text-gray-400 mt-4 max-w-xl text-sm sm:text-base">
-          Cybersecurity • Cloud Security • Network Defense • Cryptography
+          Hello There! Welcome to my portfolio.
+          <ul> Feel free to check out my resume, projects, and skills below. </ul>
         </p>
-
+    
         {/* Buttons */}
         <div className="flex flex-col sm:flex-row gap-4 mt-10">
 
