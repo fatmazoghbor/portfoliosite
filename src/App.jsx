@@ -325,7 +325,7 @@ export default function App() {
 
     </div>
 
-    {/* CERT 3 - IBM 2022 */}
+    {/* CERT 3 - coursera */}
     <div className="flex flex-col items-center text-center">
 
       <img
@@ -379,56 +379,88 @@ export default function App() {
 
 </section>
 
-<div className="mt-0 grid md:grid-cols-2 gap-5">
- 
-{/* LANGUAGES */}
-<section className="px-6 sm:px-16 py-16 flex justify-center">
+<div className="flex flex-col md:flex-row items-start gap-20">
 
-  <div className="w-full max-w-2xl">
+{/* LANGUAGES + IMAGES */}
 
-    <h2 className="text-3xl font-bold text-cyan-400 mb-10 text-center">
-      Languages
-    </h2>
+<section className="px-6 sm:px-16 py-16">
 
-    {/* English */}
-    <div className="mb-6">
-      <div className="flex justify-between text-sm text-gray-300">
-        <span>English</span>
-        <span>100%</span>
+<div className="flex items-start gap-20">
+
+    {/* LEFT: LANGUAGES */}
+    <div className="w-full max-w-xl">
+
+      <h2 className="text-3xl font-bold text-cyan-400 mb-10 text-center md:text-left">
+        Languages
+      </h2>
+
+      {/* English */}
+      <div className="mb-6">
+        <div className="flex justify-between text-sm text-gray-300">
+          <span>English (Fluent)</span>
+          <span>100%</span>
+        </div>
+        <div className="w-full bg-gray-800 rounded-full h-2 mt-2">
+          <div className="bg-cyan-500 h-2 rounded-full" style={{ width: "100%" }}></div>
+        </div>
       </div>
-      <div className="w-full bg-gray-800 rounded-full h-2 mt-2">
-        <div className="bg-cyan-500 h-2 rounded-full" style={{ width: "100%" }}></div>
+
+      {/* Arabic */}
+      <div className="mb-6">
+        <div className="flex justify-between text-sm text-gray-300">
+          <span>Arabic (Fluent) </span>
+          <span>100%</span>
+        </div>
+        <div className="w-full bg-gray-800 rounded-full h-2 mt-2">
+          <div className="bg-cyan-500 h-2 rounded-full" style={{ width: "100%" }}></div>
+        </div>
       </div>
+
+      {/* French */}
+      <div className="mb-6">
+        <div className="flex justify-between text-sm text-gray-300">
+          <span>French (A2 Level)</span>
+          <span>40%</span>
+        </div>
+        <div className="w-full bg-gray-800 rounded-full h-2 mt-2">
+          <div className="bg-cyan-500 h-2 rounded-full" style={{ width: "40%" }}></div>
+        </div>
+      </div>
+
     </div>
+<div className="ml-auto w-full md:w-auto">
 
-    {/* Arabic */}
-    <div className="mb-6">
-      <div className="flex justify-between text-sm text-gray-300">
-        <span>Arabic</span>
-        <span>100%</span>
-      </div>
-      <div className="w-full bg-gray-800 rounded-full h-2 mt-2">
-        <div className="bg-cyan-500 h-2 rounded-full" style={{ width: "100%" }}></div>
-      </div>
-    </div>
-
-    {/* French */}
-    <div className="mb-6">
-      <div className="flex justify-between text-sm text-gray-300">
-        <span>French</span>
-        <span>50%</span>
-      </div>
-      <div className="w-full bg-gray-800 rounded-full h-2 mt-2">
-        <div className="bg-cyan-500 h-2 rounded-full" style={{ width: "50%" }}></div>
-      </div>
-    </div>
-
+  <div className="grid md:grid-cols-2 gap-5">
+  
+  {/* DELF A1 */}
+  <div className="flex flex-col items-center text-center">
+    <img
+      src="/DELF A1.jpeg"
+      alt="DELF A1"
+      className="mt-4 h-50 border-2 border-cyan-400 rounded-lg"
+    />
+    <h3 className="text-sm font-bold text-gray-200 mt-4 max-w-xs">
+      Diplôme d'études en langue française (DELF A1)
+    </h3>
   </div>
 
+  {/* DELF A2 */}
+  <div className="flex flex-col items-center text-center">
+    <img
+      src="/DELF a2.jpeg"
+      alt="DELF A2"
+      className="mt-4 h-50 border-2 border-cyan-400 rounded-lg"
+    />
+    <h3 className="text-sm font-bold text-gray-200 mt-4 max-w-xs">
+      Diplôme d'études en langue française (DELF A2)
+    </h3>
+  </div>
+
+</div> 
+ </div>
+</div>
 </section>
   </div>
-
-
 
       {/* CONTACT */}
       <section id="contact" className="px-6 sm:px-16 py-20 border-t border-white-900/30">
