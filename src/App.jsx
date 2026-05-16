@@ -1,7 +1,4 @@
-import certAWS from "../assets/certificate.png";
-import certIBM2025 from "../assets/image.png";
-import certIBM2022 from "../assets/certificate1.png";
-import certCoursera from "../assets/coursera.png";
+
 export default function App() {
   return (
     <div className="min-h-screen bg-[#05070d] text-white font-sans relative overflow-x-hidden">
