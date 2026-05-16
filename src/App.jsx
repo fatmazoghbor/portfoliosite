@@ -1,3 +1,7 @@
+import certAWS from "./assets/certificate.png";
+import certIBM2025 from "./assets/image.png";
+import certIBM2022 from "./assets/certificate1.png";
+import certCoursera from "./assets/coursera.png";
 export default function App() {
   return (
     <div className="min-h-screen bg-[#05070d] text-white font-sans relative overflow-x-hidden">
@@ -276,7 +280,7 @@ export default function App() {
     <div className="flex flex-col items-center text-center">
 
       <img
-        src="/certificate.png"
+        src={certAWS}
         alt="AWS Certificate"
         className="w-40 h-40 object-cover border-2 border-cyan-400 rounded-lg"
       />
@@ -302,7 +306,7 @@ export default function App() {
     <div className="flex flex-col items-center text-center">
 
       <img
-        src="/image.png"
+        src={certIBM2025}
         alt="IBM Certificate"
         className="w-40 h-40 object-cover border-2 border-cyan-400 rounded-lg"
       />
@@ -328,9 +332,9 @@ export default function App() {
     <div className="flex flex-col items-center text-center">
 
       <img
-        src="/coursera.png"
+        src={certCoursera}
         alt="coursera Certificate"
-        className="w-40 h-40 object-cover border-2 border-cyan-400"
+        className="px-2 py-2 object-cover border-2 border-cyan-400"
       />
 
       <h3 className="text-sm font-bold text-gray-200 mt-4">
@@ -353,7 +357,7 @@ export default function App() {
     <div className="flex flex-col items-center text-center">
 
       <img
-        src="/certificate1.png"
+        src={certIBM2022}
         alt="IBM Certificate"
         className="w-40 h-40 object-cover border-2 border-cyan-400 rounded-lg"
       />
@@ -381,13 +385,13 @@ export default function App() {
 <div className="mt-0 grid md:grid-cols-2 gap-5">
  
 {/* LANGUAGES */}
+<section className="px-6 sm:px-16 py-16 flex justify-center">
 
-<section className="px-6 sm:px-16 py-20">
+  <div className="w-full max-w-2xl">
 
-  <h2 className="text-3xl font-bold text-cyan-400 mb-10">
-    Languages
-  </h2>
-  <div className="max-w-2xl">
+    <h2 className="text-3xl font-bold text-cyan-400 mb-10 text-center">
+      Languages
+    </h2>
 
     {/* English */}
     <div className="mb-6">
@@ -421,14 +425,14 @@ export default function App() {
         <div className="bg-cyan-500 h-2 rounded-full" style={{ width: "50%" }}></div>
       </div>
     </div>
-<div className="grid md:grid-cols-3 gap-8"> 
-  
-</div>
 
   </div>
-</section>
 
-</div>
+</section>
+  </div>
+
+
+
       {/* CONTACT */}
       <section id="contact" className="px-6 sm:px-16 py-20 border-t border-white-900/30">
 
