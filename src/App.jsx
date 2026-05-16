@@ -48,7 +48,7 @@ export default function App() {
 
           <a
             href="#projects"
-            className="px-8 py-3 border border-cyan-500 text-white font-bold rounded-md hover:shadow-[cyan] transition"
+            className="px-8 py-3 border border-cyan-500 text-white font-bold rounded-md hover:bg-white-500 hover:bg-cyan-500 hover:text-cyan transition"
           >
             VIEW PROJECTS
           </a>
@@ -56,7 +56,7 @@ export default function App() {
           <a
             href="https://drive.google.com/file/d/15-uJH8zxuH9nzc469QVZOCaYXQc-bUy9/view?usp=sharing"
             
-            className="px-8 py-3 border border-cyan-500 text-white font-bold rounded-md hover:shadow-[cyan] transition"
+            className="px-8 py-3 border border-cyan-500 text-white font-bold rounded-md hover:bg-white-500 hover:bg-cyan-500 hover:text-cyan transition"
           >
             VIEW RESUME
           </a>
