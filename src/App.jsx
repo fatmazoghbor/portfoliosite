@@ -328,9 +328,9 @@ export default function App() {
     <div className="flex flex-col items-center text-center">
 
       <img
-        src="/coursera.png"
+        src="coursera.png"
         alt="coursera Certificate"
-        className="px+2 py+1 object-cover border-2 border-cyan-400 rounded-lg"
+        className="w-40 h-40 object-cover border-2 border-cyan-400"
       />
 
       <h3 className="text-sm font-bold text-gray-200 mt-4">
