@@ -280,7 +280,7 @@ export default function App() {
     <div className="flex flex-col items-center text-center">
 
       <img
-        src={certAWS}
+        src="https://images.credly.com/size/680x680/images/cceb6e0f-55f4-45d5-aec6-0e4435f488c6/blob"
         alt="AWS Certificate"
         className="w-40 h-40 object-cover border-2 border-cyan-400 rounded-lg"
       />
@@ -306,8 +306,8 @@ export default function App() {
     <div className="flex flex-col items-center text-center">
 
       <img
-        src={certIBM2025}
-        alt="IBM Certificate"
+        src="https://images.credly.com/size/680x680/images/e42ec4cf-c794-4f16-b6f1-c86db7e905cf/BadgeEmblem_CodeGenerationAndOptimizationUsingIBMGranite.png"
+        alt="IBM Certificate 2025"
         className="w-40 h-40 object-cover border-2 border-cyan-400 rounded-lg"
       />
 
@@ -332,9 +332,9 @@ export default function App() {
     <div className="flex flex-col items-center text-center">
 
       <img
-        src={certCoursera}
-        alt="coursera Certificate"
-        className="px-2 py-2 object-cover border-2 border-cyan-400"
+        src="https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~A4TRR9QHAUL7/CERTIFICATE_LANDING_PAGE~A4TRR9QHAUL7.jpeg"
+        alt="Coursera Certificate"
+        className="w-40 h-40 object-cover border-2 border-cyan-400 rounded-lg"
       />
 
       <h3 className="text-sm font-bold text-gray-200 mt-4">
@@ -357,8 +357,8 @@ export default function App() {
     <div className="flex flex-col items-center text-center">
 
       <img
-        src={certIBM2022}
-        alt="IBM Certificate"
+        src="https://images.credly.com/size/680x680/images/2dec9f37-1d9c-494b-b9da-2f6d3c8e3217/Getting_Started_with_Threat_Intelligence_and_Hunting.png"
+        alt="IBM Certificate 2022"
         className="w-40 h-40 object-cover border-2 border-cyan-400 rounded-lg"
       />
 
