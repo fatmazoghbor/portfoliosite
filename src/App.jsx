@@ -501,4 +501,8 @@ export default function App() {
 
     </div>
   );
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 94e99e3d74fa673847d6714dd5b594c768ccfaae
