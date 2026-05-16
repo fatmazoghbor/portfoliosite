@@ -331,7 +331,7 @@ export default function App() {
       <img
         src="https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~A4TRR9QHAUL7/CERTIFICATE_LANDING_PAGE~A4TRR9QHAUL7.jpeg"
         alt="Coursera Certificate"
-        className="px-2 py-2 object-cover border-2 border-cyan-400 rounded-lg"
+        className="mt-2 h-40  object-cover border-2 border-cyan-400 rounded-lg"
       />
 
       <h3 className="text-sm font-bold text-gray-200 mt-4">
